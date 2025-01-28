@@ -19,13 +19,16 @@
               colors: {
                 clifford: '#da373d',
               }
+              fontFamily: {
+                manrope: ['manrope', 'sans-serif'],
+              }
             }
           }
         }
       </script>
       <link rel="shortcut icon" href="./images/banner.png" type="image/x-icon">
 </head>
-<body class="bg-white max-w-screen-xl mx-auto px-16 lg:px-20">
+<body class="font-manrope bg-white max-w-screen-xl mx-auto px-16 lg:px-20">
         <header>
             <div class="flex my-16 relative">
                 <!-- Banner text -->
@@ -185,21 +188,105 @@
             </div>
           </div>
           <div>
-
           </div>
         </div>
+        
        </section>
-
-
-
-
-
-
-
+       <!-- News Section  -->
 
     </main>
-    <footer>
-
+     <!-- Footer Section  -->
+    <footer class="bg-orage-100 py-10 px-4 md:px-16">
+      <div class="w-9/12 mx-auto">
+        <!-- logo section  -->
+         <div class="mb-8 flex justify-between">
+          <img class="mb-8" src="./images/cup.png" alt="">
+          <div class="flex items-center gap-2">
+            <h4>Ready to get started</h4>
+            <button class="bg-gradient-to-r from-[#FF0000] to-[#FF8938]  px-3 py-2 rounded-lg text-white font-semibold">Get Started</button>
+          </div>
+         </div>
+         <!-- links section  -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- First Column -->
+             <div>
+              <h3 class="font-semibold text-lg">
+                Quick Kinks
+              </h3>
+              <ul class="space-y-2">
+                <li>
+                  <a class="hover:text-orange-600" href="#">Home</a>
+                </li>
+                <li>
+                  <a class="hover:text-orange-600" href="#">About Us</a>
+                </li>
+                <li>
+                  <a class="hover:text-orange-600" href="#">Insurance</a>
+                </li>
+                <li>
+                  <a class="hover:text-orange-600" href="#">Privacy Policy</a>
+                </li>
+              </ul>
+             </div>
+            <!-- Second Column -->
+             <div>
+              <h3 class="font-semibold text-lg">
+                Our Service
+              </h3>
+              <ul class="space-y-2">
+                <li>
+                  <a class="hover:text-orange-600" href="#">Life Insurance</a>
+                </li>
+                <li>
+                  <a class="hover:text-orange-600" href="#">Car Insurance</a>
+                </li>
+                <li>
+                  <a class="hover:text-orange-600" href="#">Health Insurance</a>
+                </li>
+                <li>
+                  <a class="hover:text-orange-600" href="#">House Insurance</a>
+                </li>
+              </ul>
+             </div>
+            <!-- Third Column -->
+             <div>
+              <h3 class="font-semibold text-lg">
+                Help
+              </h3>
+              <ul class="space-y-2">
+                <li>
+                  <a class="hover:text-orange-600" href="#">FAQs</a>
+                </li>
+                <li>
+                  <a class="hover:text-orange-600" href="#">Contact Us</a>
+                </li>
+                
+              </ul>
+             </div>
+            <!-- Fourd Column -->
+             <div>
+              <h3 class="font-semibold text-lg">
+                Subscribe to Our newsletter
+              </h3>
+              <div class="flex flex-col space-y-2">
+                <div>
+                  <input placeholder="Email Address" type="text" class="border-b-2 border-black bg-transparent w-4/5 ">
+                  <i class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 inline-flex rounded-full text-white justify-center items-center"></i>
+                  <div class="flex justify-center justify-between w-2/5 mb-2 mt-8">
+                    <i class="fa-brands fa-facebook hover:text-blue-700"></i>
+                    <i class="fa-brands fa-instagram hover:text-orange-600"></i>
+                    <i class="fa-brands fa-twitter hover:text-blue-700"></i>
+                  </div>
+                </div>
+              </div>
+             </div>
+          </div>
+          <div class="text-center pt-4 mt-4">
+            <p class="text-am text-gray-500">
+              © 2027 UIDesign.to - All rights reserved.
+            </p>
+          </div>
+      </div>
     </footer>  
 </body>
 </html>
