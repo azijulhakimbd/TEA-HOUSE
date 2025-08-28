@@ -93,6 +93,6 @@ A **“Show All”** button (for more testimonials or client stories)
 
 To run or customize this project:
 
-1. Clone the repository (replace with actual URL):
+1. Clone the repository:
    ```bash
    git clone https://github.com/azijulhakimbd/TEA-HOUSE.git
